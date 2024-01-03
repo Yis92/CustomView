@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="QQStepView">
+        <attr name="outColor" format="color"/>
+        <attr name="innerColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="stepText" format="string"/>
+        <attr name="stepTextSize" format="dimension"/>
+        <attr name="stepTextColor" format="color"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBar">
+        <attr name="innerCircleColor" format="color"/>
+        <attr name="outterCircleColor" format="color"/>
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="progressText" format="integer"/>
+        <attr name="progressTextColor" format="color"/>
+        <attr name="progressTextSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>

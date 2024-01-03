@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.yis.customviewapplication.QQStepView
+        android:id="@+id/step_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:borderWidth="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:stepTextSize="30sp" />
+
+    <com.yis.customviewapplication.ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:circleWidth="20dp"
+        app:innerCircleColor="#ff4000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/step_view"
+        app:outterCircleColor="#0000ff"
+        app:progressText="80"
+        app:progressTextColor="#ff4000"
+        app:progressTextSize="26sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
