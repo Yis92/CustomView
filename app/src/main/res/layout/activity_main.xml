@@ -30,4 +30,44 @@
         app:progressTextColor="#ff4000"
         app:progressTextSize="26sp" />
 
+    <com.yis.customviewapplication.TagLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#4dff0000"
+        app:layout_constraintTop_toBottomOf="@id/progressbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world"
+            android:textSize="14sp"
+            android:textColor="#333"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:background="@drawable/shape_bg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world hello world"
+            android:textSize="14sp"
+            android:textColor="#333"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_bg"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world hello world hello world"
+            android:textSize="14sp"
+            android:textColor="#333"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_bg"/>
+    </com.yis.customviewapplication.TagLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

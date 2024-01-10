@@ -20,4 +20,9 @@
         <attr name="progressTextSize" format="dimension"/>
     </declare-styleable>
 
+    <declare-styleable name="LetterSideBar">
+        <attr name="defaultColor" format="color"></attr>
+        <attr name="selectedColor" format="color"></attr>
+    </declare-styleable>
+
 </resources>
